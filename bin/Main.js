@@ -1,0 +1,20 @@
+// Package: Main
+define(["./Module1"],
+       function (Module1) {
+
+	// Class: Main
+	
+	var Main = function() {};
+	Main.prototype = {
+	 __class__: Main
+	};
+	Main.__name__ = "Main";
+	Main.main = function() {
+		var foo = new Module1();
+		console.log("Hi there!");
+	};
+	
+	
+	return Main;
+});
+

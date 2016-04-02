@@ -1,0 +1,10 @@
+-cp src
+-D js-es5
+-lib modular-js
+-js bin/app.js
+-main Main
+--next
+-cp src
+-main Server
+-lib monsoon-embed
+-neko bin/server.n
